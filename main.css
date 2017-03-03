@@ -1,0 +1,137 @@
+body {
+	font-family: roboto, san-serif;
+	font-size: 18px;
+	margin-left: 100px;
+}
+
+
+header {
+	background-color: grey;
+	height:60px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+}
+
+
+nav {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+
+nav ul {
+	list-style: none;
+}
+
+
+nav li {
+	margin-right: 10px;
+	display: inline-block;
+
+}
+
+
+nav li:nth-child(1) {	
+	float: left;
+
+}
+
+
+nav li:nth-child(n+2) {
+	float: right;
+	
+}
+
+
+.logo {
+	color: black;
+	font-weight: bold;
+}
+
+
+nav a {
+ 	font-size: 20px;
+ 	text-decoration: none;
+ }
+
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+
+search {
+	margin-bottom: 20px;
+
+
+}
+
+label, .search-input {
+	margin-left: 40px;
+}
+
+
+.search-input {
+	font-size: 18px;
+	width: 500px;
+	height: 30px;
+	
+
+	
+
+}
+
+.search-button {
+	height: 32px;
+	width: auto;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	
+}
+
+.search-input, .search-button {
+	vertical-align: middle;
+	padding: 5px;
+}
+
+div ul {
+	font-size: 0;
+	margin-top: 40px;
+	list-style: none;
+	
+}
+
+div li{
+	font-size: 18px;
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	padding: 10px;
+
+}
+
+
+section ul {
+	margin-top: 60px;
+	list-style: none;
+	color: grey;
+}
+
+section li {
+	margin-bottom: 20px;
+}
+
+section li a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+
